@@ -1,0 +1,7 @@
+// //manifest.json (Your extension's manifest file)
+// popup.html (User interface for the extension popup)
+// popup.js (JavaScript for the popup)
+// popup.css (CSS for the popup)
+// background.js (JavaScript for the background script)
+// content.js (JavaScript for the content script)
+// images/ (Directory for extension icons and other images)
