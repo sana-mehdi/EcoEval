@@ -7,7 +7,7 @@ The EcoEval Chrome Extension is designed to help online shopping users make more
 * Easy Integration: Seamlessly integrates into your online shopping browsing experience, with no external interfaces or websites to visit.
 * User-Friendly: Simple and intuitive to use. The sustainability rating is displayed once the product is clicked on.
 
-## User Interface
+## User Interface ૮₍ ˶ᵔ ᵕ ᵔ˶ ₎ა
 This is how the user interface looks like for this Chrome extension
 1. The user can activate EcoEval
 [INSERT PICTURE]
