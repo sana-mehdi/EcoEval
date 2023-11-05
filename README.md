@@ -31,9 +31,9 @@ To enhance the features of EcoEval,  Here's the current roadmap for the next ste
 * Creating a website 🌐
   * We would create a website to provide further information about this extension, including the importance of shopping sustainably and the general metrics used to reach the sustainability rating of a product. 
 * Accuracy ☑
-  * The sustainability rating the input receives is an approximation so in the future, we can find better AI models to improve the accuracy. 
-* Carbon Footprint
- * To continue to fulfill our goal of aiding online shoppers in shopping sustainably, we can provide a carbon footprint based on the product using location data, specific algorithms, etc alongside the rate. This will prompt users to be more conscious of the importance of buying locally. 
+  * The sustainability rating the input receives is an approximation so in the future, we can find better AI models to improve the accuracy.  
+* Carbon Footprint:
+  * To continue to fulfill our goal of aiding online shoppers in shopping sustainably, we can provide a carbon footprint based on the product using location data, specific algorithms, etc alongside the rate. This will prompt users to be more conscious of the importance of buying locally.
 * Additional Functionalities: 
   * Depending on user feedback and business requirements, we will continue to explore additional functionalities that enhance the app's utility and user experience.
 
