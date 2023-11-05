@@ -1,50 +1,70 @@
-/* Add styling for the input box and button */
-#product-description {
-    width: 100%; /* Set width to 100% to match other elements */
-    margin: 10px 0;
-    padding: 5px;
-    box-sizing: border-box; /* Include padding in the width */
-  }
-  
-  #estimate-button {
-    background-color: #0073e6;
-    color: #fff;
-    border: none;
-    padding: 8px 15px;
-    cursor: pointer;
-  }
-  
-  /* Center the button */
-  #estimate-button {
-    display: block;
-    margin: 0 auto;
-  }
-  
-  /* Center the text inside the button */
-  #estimate-button span {
-    display: inline-block;
-    vertical-align: middle;
-  }
-  
-  /* Style for the rest of your popup container */
-  .popup-container {
-    text-align: center;
-    padding: 20px;
-  }
-  
-  /* Additional styles for other elements in your container */
-  .logo {
+/* Style for the rest of your popup container */
+.popup-container {
+  text-align: center;
+  padding: 20px;
+  background-color: #f0f0f0; /* Light gray background */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Box shadow for depth */
+  vertical-align: middle;
+  min-width: 500px;
+  max-width: 80%; 
+  margin: auto; /* Center the popup */
+}
+
+h1 {
+  font-size: 24px; /* Increase the font size for the title */
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+body {
+  font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+/* Additional styles for other elements in your container */
+.logo {
     max-width: 100px;
     margin-bottom: 20px;
-  }
-  
-  #product-name {
+}
+
+#product-name {
     font-size: 18px;
     margin-bottom: 10px;
-  }
-  
-  #sustainability-rating,
-  #rating-reason {
+}
+
+#sustainability-rating{
     font-size: 14px;
     margin: 10px 0;
-  }
+}
+
+/* Add styling for the input box and button */
+#product-description {
+  width: 100%;
+  height: 8em;
+  margin: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+  resize: vertical; 
+  overflow-x: auto; /* Add scrollbar if content overflows */
+}
+
+#get-estimate-button {
+  background-color: #4CAF50; /* Green color for the button */
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  display: block;
+  margin: 20px auto; 
+}
+
+/* Center the text inside the button */
+#get-estimate-button span {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+#sustainability-estimate {
+  font-size: 16px; /* Adjust the font size as needed */
+  margin: 20px 0; /* Increased margin */
+}

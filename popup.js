@@ -1,3 +1,5 @@
+// popup.js file that takes the data from the chrome extension
+
 document.addEventListener("DOMContentLoaded", function () {
   const getEstimateButton = document.getElementById("get-estimate-button");
   const productDescriptionInput = document.getElementById(
@@ -9,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   getEstimateButton.addEventListener("click", () => {
     const productDescription = productDescriptionInput.value;
-    const user_prompt = `${productDescription}. Based on this provided description and ingredients, how much would you rate this product in terms of sustainability? Give me an estimate in % out of 100.`;
+    const user_prompt = `${productDescription}. Based on this provided description and ingredients, give me a percentage indicating the sustainability of this product on a scale of 1-100 . Answer in two lines`;
 
     // Send a message to the background script
     chrome.runtime.sendMessage({
