@@ -11,7 +11,7 @@ The EcoEval Chrome Extension is designed to help online shopping users make more
 This is how the user interface looks like for this Chrome extension
 1. The user can activate EcoEval
 2. The user can input their product description into EcoEval
-![image](https://github.com/sana-mehdi/EcoEval/assets/149890171/a51daa4a-3383-4c3a-96a6-db267f7fb5fb)
+![image](https://github.com/sana-mehdi/EcoEval/assets/149890171/27afbcf9-1c5c-4309-9cd3-3cbcccd59df2)
 3. This is how the output is represented:
 ![image](https://github.com/sana-mehdi/EcoEval/assets/149890171/58ab596f-7657-4fa6-8402-2e69aa90d2cd)
 
