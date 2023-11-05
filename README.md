@@ -24,10 +24,12 @@ The primary goal of the EcoEval chrome extension is to aid online shoppers in sh
 
 ## Next Steps
 To enhance the features of EcoEval,  Here's the current roadmap for the next steps:
-* Automizing the sustainability rate
+* Automizing the sustainability rate ★★★✩✩
   * To improve the efficiency of this Chrome extension, we will implement it in a way where the user does not have to input the description manually but rather, will receive the rate along with the reasoning once the product is clicked on and the extension is activated. 
-* Creating a website: 
+* Creating a website 🌐
   * We would create a website to provide further information about this extension, including the importance of shopping sustainably and the general metrics used to reach the sustainability rating of a product. 
+* Accuracy ☑
+ * The sustainability rating the input receives is an approximation so in the future, we can find better AI models to improve the accuracy. 
 * Additional Functionalities: 
   * Depending on user feedback and business requirements, we will continue to explore additional functionalities that enhance the app's utility and user experience.
 
