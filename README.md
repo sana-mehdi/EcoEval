@@ -10,11 +10,13 @@ The EcoEval Chrome Extension is designed to help online shopping users make more
 ## User Interface (੭˃ᴗ˂)੭
 This is how the user interface looks like for this Chrome extension
 1. The user can activate EcoEval
-![image](https://github.com/sana-mehdi/EcoEval/assets/149890171/7f62f52a-ecef-437e-8ff2-ab41a80182a3)
 2. The user can input their product description into EcoEval
-[INSERT PICTURE]
+![image](https://github.com/sana-mehdi/EcoEval/assets/149890171/a51daa4a-3383-4c3a-96a6-db267f7fb5fb)
 3. This is how the output is represented:
-[INSERT PICTURE]
+![image](https://github.com/sana-mehdi/EcoEval/assets/149890171/58ab596f-7657-4fa6-8402-2e69aa90d2cd)
+
+If a sustainability rate is not provided to the user, the following prompt will be displayed “Please enter more specific information about the product."  
+
  
 ## Goal and Use Case (づ๑•ᴗ•๑)づ♡
 The primary goal of the EcoEval chrome extension is to aid online shoppers in shopping more sustainably through an efficient and straightforward method. The specific use case of this tool is to make users more aware of their contributions to their carbon footprint and make them more conscious of the products they buy based on the sustainability rating of the product. This tool enables users to 
