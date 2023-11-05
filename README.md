@@ -3,7 +3,7 @@ The EcoEval Chrome Extension is designed to help online shopping users make more
 
 ## Features
 * Sustainability Rating: Provides a sustainability rating for products based on their descriptions.
-* Use AI technology to calculate the sustainability rating
+ * Use AI technology to calculate the sustainability rating
 * Easy Integration: Seamlessly integrates into your online shopping browsing experience, with no external interfaces or websites to visit.
 * User-Friendly: Simple and intuitive to use. The sustainability rating is displayed once the product is clicked on.
 
