@@ -6,7 +6,7 @@ chrome.runtime.onMessage.addListener(function (request, sender, sendResponse) {
     const user_prompt = `${productDescription}.`;
     console.log(productDescription, user_prompt);
     // Replace 'YOUR_API_KEY' with your actual ChatGPT API key
-    const apiKey = "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";
+    const apiKey = "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";
 
     // Define the API endpoint for ChatGPT
     const apiUrl = "https://api.openai.com/v1/chat/completions";
@@ -15,15 +15,14 @@ chrome.runtime.onMessage.addListener(function (request, sender, sendResponse) {
     fetch(apiUrl, {
       method: "POST",
       headers: {
-        Authorization:
-          "Bearer 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",
-        "Content-Type": "application/json",
+        'Authorization':'Bearer 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',
+        'Content-Type': 'application/json'
       },
       body: JSON.stringify({
         model: "gpt-3.5-turbo",
         messages: [{ role: "system", content: user_prompt }],
         max_tokens: 30,
-      }),
+      })
     })
       .then((response) => {
         if (!response.ok) {
@@ -52,6 +51,7 @@ chrome.runtime.onMessage.addListener(function (request, sender, sendResponse) {
       })
       .catch((error) => {
         console.error("Error:", error);
+        
         // Send an error message back to the popup script
         chrome.runtime.sendMessage({
           action: "displaySustainabilityEstimate",
@@ -60,3 +60,6 @@ chrome.runtime.onMessage.addListener(function (request, sender, sendResponse) {
       });
   }
 });
+
+
+
